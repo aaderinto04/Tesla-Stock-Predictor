@@ -60,7 +60,6 @@ x_test, y_test = np.array(x_test), np.array(y_test)
 
 
 predicted_prices = model.predict(x_test)
-#predicted_prices = scaler.inverse_transform(predicted_prices)
 scale = 1/scaler.scale_
 predicted_prices = predicted_prices*scale
 y_test = y_test*scale
