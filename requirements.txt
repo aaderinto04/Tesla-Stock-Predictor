@@ -3,3 +3,6 @@ pandas
 scikit-learn
 numpy
 matplotlib
+tensorflow
+keras.models
+keras.layers
