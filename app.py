@@ -5,7 +5,7 @@ from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 import streamlit as st
 
-model = load_model('C:\\Users\Nikky 1\\OneDrive\\Documents\\StockPriceProj\\StockPredictionsModelKeras.zip')
+model = load_model('C:\\Users\\Nikky 1\\OneDrive\\Documents\\StockPriceProj\\StockPredictionsModelKeras.zip')
 
 
 st.header('Tesla Stock Predictor')
