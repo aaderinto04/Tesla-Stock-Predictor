@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 import streamlit as st
+import h5py
 
 model = load_model('C:\\Users\\Nikky 1\\OneDrive\\Documents\\StockPriceProj\\Stock Predictions Model.h5')
 
