@@ -5,9 +5,8 @@ from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 import streamlit as st
 
-model = load_model('Nikky 1\OneDrive\Documents\StockPriceProj\StockPredictionsModelkeras.zip')
-
-
+#model = load_model('Nikky 1\OneDrive\Documents\StockPriceProj\StockPredictionsModelkeras.zip')
+model = keras.models.load_model('Nikky 1\OneDrive\Documents\StockPriceProj\StockPredictionsModelkeras.zip')
 st.header('Tesla Stock Predictor')
 
 df = pd.read_csv('TSLA.csv')
