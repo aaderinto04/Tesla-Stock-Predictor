@@ -9,7 +9,7 @@ import streamlit as st
 
 #model = load_model('OneDrive\Documents\StockPriceProj\StockPredictionsModelkeras.zip')
 #model = keras.models.load_model('OneDrive\Documents\StockPriceProj\StockPredictionsModelkeras.zip')
-model = keras.layers.TFSMLayer('OneDrive\Documents\StockPriceProj\StockPredictionsModelkeras.zip')
+model = keras.layers.TFSMLayer('OneDrive\Documents\StockPriceProj\StockPredictionsModelKeras.zip')
 
 st.header('Tesla Stock Predictor')
 
