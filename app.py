@@ -6,7 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 import streamlit as st
 import h5py
 
-model = load_model('Stock Predictions Modelss.hdf5')
+model = load_model(r'C:\Users\Nikky 1\OneDrive\Documents\StockPriceProj\Stock Predictions Model.h5')
 
 
 st.header('Tesla Stock Predictor')
