@@ -8,7 +8,7 @@ import streamlit as st
 import h5py
 
 
-model = load_model(r'C:\Users\Nikky 1\OneDrive\Documents\StockPriceProj\Stock Predictions Model.h5')
+model = load_model(r'C:\Users\Nikky 1\OneDrive\Documents\StockPriceProj\Stock Predictions Model.hdf5')
 
 
 st.header('Tesla Stock Predictor')
