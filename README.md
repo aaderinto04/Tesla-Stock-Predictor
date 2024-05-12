@@ -1,3 +1,3 @@
 # Tesla-Stock-Predictor
 
-Used machine learning through scikit-learn to predict the Stock Price of Tesla
+Used machine learning through scikit-learn and LSTM to predict the stock price of Tesla
